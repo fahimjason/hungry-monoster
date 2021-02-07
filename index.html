@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hungry Monster</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input id="meal-item" type="text" class="form-control" placeholder="Search food ...">
+                <div class="input-group-append">
+                    <button id="search" type="button" class="btn btn-danger">Search</button>
+                </div>
+                <br>
+                <h4 id="error-message" class="py-3"></h4>
+            </div>
+        </form>
+        <div id="items" class="">
+        </div>
+
+        <!-- Modal content Popup-->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div id="modalMain" class="modal-content">
+                <span id="close" class="close">&times;</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- link js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
